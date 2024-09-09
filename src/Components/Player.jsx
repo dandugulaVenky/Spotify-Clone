@@ -4,7 +4,7 @@ import { assets } from "./../assets/assets";
 import { PlayerContext } from "../Context/PlayerContext";
 
 const Player = () => {
-  const {track, seekBar, seekBg, playStatus, play, pause,time } =
+  const {track, seekBg, playStatus, play, pause,time } =
     useContext(PlayerContext);
 
   return (
